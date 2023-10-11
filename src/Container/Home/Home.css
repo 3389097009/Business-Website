@@ -1,0 +1,82 @@
+*{margin: 0;
+padding: 0;
+}
+
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    
+}
+.slider figure div{
+    float: left;
+
+    width: 10%;
+}
+
+.slider figure img{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    border-width: 100px;
+    
+    border-color: black;
+}
+
+.slider figure{
+    position:relative;
+    width: 1000%;
+    margin: 0;
+    animation: animate 40s infinite;
+}
+
+/* @keyframes animate {
+    
+    0%{left: 0%;}
+    10%{left: 0%;}
+    12%{left: -100;}
+    22%{left: -100%;}
+    24%{left: -200%;}
+    34%{left: -200%;}
+    36%{left: -300%;}
+    46%{left: -300%;}
+    48%{left: -400%;}
+    58%{left: -400%;}
+    60%{left: -300%;}
+    70%{left: -300%;}
+    72%{left: -200%;}
+    82%{left: -200%;}
+    84%{left: -100%;}
+    94%{left: 0%;}
+    96%{left: 0%;}
+    
+} */
+
+@keyframes animate {
+    
+    0%{left: 0%;}
+    5%{left: -100%;}
+    10%{left: -200%;}
+    15%{left: -300%;}
+    20%{left: -400%;}
+    25%{left: -500%;}
+    30%{left: -600%;}
+    35%{left: -700%;}
+    40%{left: -800%;}
+    45%{left: -900%;}
+    50%{left: -800%;}
+    55%{left: -700%;}
+    60%{left: -600%;}
+    65%{left: -500%;}
+    70%{left: -400%;}
+    75%{left: -300%;}
+    80%{left: -200%;}
+    85%{left: -100%;}
+    90%{left: 0%;}
+    
+   
+}
+

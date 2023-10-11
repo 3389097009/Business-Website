@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+:root{
+    --mainColor: Blue;
+    --mainColorLight: Aqua;
+    --secondaryColor: Red;
+    --textColor: #eee;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+nav a{
+    margin: 0 1.5rem;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    
+}
+a::after{
+    content: '';
+    position: absolute;
+    background-color:red;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+a:hover::after{
+    width: 100%;
+}
+@media only screen and (max-width: 1024px){
+    header nav{
+        background-color: green;
+    }
+}
+
+nav button.insta{
+    padding: 0.3rem;
+    
+}
+
+nav button.mobile{
+    padding: 0.3rem;
+    margin-left: 10px;
+}
+
+.se_logo{
+    width: 100px;
+    height: 50px;
+    margin-right: 900px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:aqua;
+}
+
+.se_logo:hover{
+    width: 101px;
+    height: 51px;
+        
+}
+
